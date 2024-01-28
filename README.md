@@ -17,8 +17,8 @@ Utilized the custom 'Topsis-Raghav-102103042' package to compute TOPSIS scores b
         <h2>Key Features</h2>
         <ul>
             <li>
-                <strong>Model Selection and Integration:</strong> Incorporates popular pretrained models, such as BERT and
-                GPT, to capture intricate patterns and semantic nuances within textual data.
+                <strong>Model Selection and Integration:</strong> Incorporates popular pretrained models, such as sf_model_e5 and
+                UAE-Large-V1, to capture intricate patterns and semantic nuances within textual data.
             </li>
             <!-- Add other key features here -->
         </ul>
