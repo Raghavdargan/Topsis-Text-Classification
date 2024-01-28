@@ -1,0 +1,6 @@
+MODEL,ACCURACY,AP,F1,Topsis Score,Rank
+jamesgpt1/sf_model_e5,70.851,33.779,64.97,1.0,1.0
+BAAI/bge-large-en-v1.5,75.851,38.566,69.694,0.5907036817030313,3.0
+Cohere/Cohere-embed-english-v3.0,81.299,46.182,75.477,0.0,5.0
+intfloat/e5-mistral-7b-instruct,78.687,41.715,72.372,0.33599356563096977,4.0
+WhereIsAI/UAE-Large-V1,75.552,38.264,69.41,0.6159716146549626,2.0
