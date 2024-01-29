@@ -3,6 +3,38 @@
 ### Name: Raghav Dargan
 ### Roll No. 102103042
 
+##  Overview
+
+Text classification involves automatically categorizing textual documents into predefined labels. The process begins with data preparation, where a labeled dataset is collected. Text preprocessing follows, cleaning and transforming the text into numerical features. A machine learning model is then selected and trained on the labeled dataset
+
+## Models
+
+I have selected the following 5 pre-trained models from [Hugging Face](https://huggingface.co/):
+
+1. [FlagEmbedding](https://huggingface.co/BAAI/bge-large-en-v1.5) - BAAI/bge-large-en-v1.5
+
+2. [Cohere Embed V3](https://huggingface.co/Cohere/Cohere-embed-multilingual-v3.0) - cohere/Cohere-embed-multilingual-v3.0 
+
+3. [Universal AnglE Embedding](https://huggingface.co/WhereIsAI/UAE-Large-V1) - WhereIsAI/UAE-Large-V1
+
+4. [sf_model_e5](https://huggingface.co/jamesgpt1/sf_model_e5) - jamesgpt1/sf_model_e5
+
+5. [E5-mistral-7b-instruct](https://huggingface.co/intfloat/e5-mistral-7b-instruct) - intfloat/e5-mistral-7b-instruct
+
+
+## Dataset
+
+I have used this dataset
+
+ [ac](https://huggingface.co/datasets/mteb/amazon_counterfactual/viewer/en) - mteb/amazon_counterfactual
+
+
+## Library 
+
+I have refered to [MTEB: Massive Text Embedding Benchmark](https://arxiv.org/abs/2210.07316) research paper. I have used the scripts available at their [GitHub](https://github.com/embeddings-benchmark/mteb/tree/main) to calculate the metrics.
+
+I have used my own topsis python package uploaded to PyPi to perform the topsis ananlysis on the data. To check out my package click [here](https://pypi.org/project/Topsis-Raghav-102103042/1.1.2/)
+
 <h3>Bargraph showing topsis score vs models</h3>
 <image  width="600px" src="image1.png">
 
