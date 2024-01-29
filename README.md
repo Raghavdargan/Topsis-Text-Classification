@@ -26,7 +26,7 @@ I have selected the following 5 pre-trained models from [Hugging Face](https://h
 
 I have used this dataset
 
- [ac](https://huggingface.co/datasets/mteb/amazon_counterfactual/viewer/en) - mteb/amazon_counterfactual
+   [ac](https://huggingface.co/datasets/mteb/amazon_counterfactual/viewer/en) - mteb/amazon_counterfactual
 
 
 ## Library 
@@ -35,10 +35,17 @@ I have refered to [MTEB: Massive Text Embedding Benchmark](https://arxiv.org/abs
 
 I have used my own topsis python package uploaded to PyPi to perform the topsis ananlysis on the data. To check out my package click [here](https://pypi.org/project/Topsis-Raghav-102103042/1.1.2/)
 
-<h3>Bargraph showing topsis score vs models</h3>
+
+## BARGRAPH
+
+Graph showing topsis score vs models
+
 <image  width="600px" src="image1.png">
 
-<h3>Table showing result of the topsis package on output.csv</h3>
+ ## Metrics
+
+Table showing result of the topsis package on output.csv
+
 <image  width="600px" src="image2.png">
 
 ##  TOPSIS Score Calculation
@@ -65,3 +72,12 @@ Utilized the custom 'Topsis-Raghav-102103042' package to compute TOPSIS scores b
             <li>F1 Score (Macro and Micro)</li>
         </ul>
     </section>
+    
+ ## Analysis
+
+sf_model_e5 has recieved **1st Rank** in this evaluation dataset. 
+
+## Disclaimer
+
+ *Note: I have given equal weightage to all the parameters  but depending on your task there may be more important metrics and their weightage may be different.*
+
